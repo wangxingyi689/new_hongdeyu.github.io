@@ -2,7 +2,7 @@
 title: "Prediction of metal-free Stoner and Mott-Hubbard magnetism in triangulene-based two-dimensional polymers"
 authors:
 - Hongde Yu
-- Thomas Heine
+- Thomas Heine*
 date: "2024-10-02T00:00:00Z"
 doi: "10.1126/sciadv.adq79"
 
@@ -19,6 +19,9 @@ publication: "*Science Advances, 10*(40)"
 publication_short: ""
 
 abstract: Ferromagnetism and antiferromagnetism require robust long-range magnetic ordering, which typically involves strongly interacting spins localized at transition metal atoms. However, in metal-free systems, the spin orbitals are largely delocalized, and weak coupling between the spins in the lattice hampers long-range ordering. Metal-free magnetism is of fundamental interest to physical sciences, unlocking unprecedented dimensions for strongly correlated materials and biocompatible magnets. Here, we present a strategy to achieve strong coupling between spin centers of planar radical monomers in π-conjugated two-dimensional (2D) polymers and rationally control the orderings. If the π-states in these triangulene-based 2D polymers are half-occupied, then we predict that they are antiferromagnetic Mott-Hubbard insulators. Incorporating a boron or nitrogen heteroatom per monomer results in Stoner ferromagnetism and half-metallicity, with the Fermi level located at spin-polarized Dirac points. An unprecedented antiferromagnetic half-semiconductor is observed in a binary boron-nitrogen–centered 2D polymer. Our findings pioneer Stoner and Mott-Hubbard magnetism emerging in the electronic π-system of crystalline-conjugated 2D polymers.
+
+# Summary. An optional shortened abstract.
+summary: We predicted, for the first time, the emergence of Stoner-ferromagnetic half-metals, as well as antiferromagnetic Mott-Hubbard insulators in metal-free 2D polymers.
 
 tags:
 - Source Themes
