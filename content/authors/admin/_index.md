@@ -46,15 +46,15 @@ interests:
 education:
   - area: Ph.D. in Physical Chemistry
     institution: Tsinghua University, P. R. China
-    date_start: 2021-04
-    date_end: 2015-08
+    date_start: 2021-04-01
+    date_end: 2015-08-01
     summary: |
       Advisor: Prof. Zhigang Shuai
 
   - area: BSc Chemistry (major), Computer Science (minor)
     institution: Tsinghua University, P. R. China
-    date_start: 2011-08
-    date_end: 2015-07
+    date_start: 2011-08-01
+    date_end: 2015-07-01
     summary: |
       Advisor: Prof. Dong Wang
 
@@ -63,7 +63,7 @@ work:
     company_name: Technische Universität Dresden, Germany
     company_url: ''
     company_logo: ''
-    date_start: 2022-04
+    date_start: 2022-04-01
     date_end: ''
     summary: |
       Advisor: Prof. Thomas Heine
@@ -72,8 +72,8 @@ work:
     company_name: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
     company_url: ''
     company_logo: ''
-    date_start: 2014-07
-    date_end: 2015-09
+    date_start: 2014-07-01
+    date_end: 2015-09-01
     summary: |
       Advisor: Prof. Klaus Schulten
 
