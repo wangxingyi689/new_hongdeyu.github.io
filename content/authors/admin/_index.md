@@ -43,31 +43,6 @@ interests:
   - Magnetism
   - Photocatalysis
 
-education:
-  - area: PhD Physical Chemistry
-    institution: Tsinghua University, P. R. China
-    Advisor: Prof. Dong Wang
-    date_start: 2015-08
-    date_end: 2021-04
-  - area: BSc Chemistry (major), Computer Science (minor)
-    institution: Tsinghua University, P. R. China
-    date_start: 2011-09
-    date_end: 2015-07
-  - area: Visiting student
-    institution: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
-    date_start: 2014-07
-    date_end: 2014-09
-
-work:
-  - position: Humboldt Postdoctoral Fellow
-    company_name: Technische Universität Dresden, Germany
-    Advisor: Prof. Thomas Heine
-    date_start: 2022-04
-  - position: Research Assistant
-    company_name: Tsinghua University, P. R. China
-    Advisor: Prof. Zhigang Shuai
-    date_start: 2021-05
-    date_end: 2021-10
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
