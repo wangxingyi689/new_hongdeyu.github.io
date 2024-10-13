@@ -63,7 +63,6 @@ work:
     company_name: Technische Universität Dresden, Germany
     Advisor: Prof. Thomas Heine
     date_start: 2022-04
-    date_end: ''
   - position: Research Assistant
     company_name: Tsinghua University, P. R. China
     Advisor: Prof. Zhigang Shuai
