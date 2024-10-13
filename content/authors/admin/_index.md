@@ -50,7 +50,6 @@ education:
     date_end: 2015-08-01
     summary: |
       Advisor: Prof. Zhigang Shuai
-
   - area: BSc Chemistry (major), Computer Science (minor)
     institution: Tsinghua University, P. R. China
     date_start: 2011-08-01
@@ -67,7 +66,6 @@ work:
     date_end: ''
     summary: |
       Advisor: Prof. Thomas Heine
-      
   - position: Visiting student
     company_name: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
     company_url: ''
