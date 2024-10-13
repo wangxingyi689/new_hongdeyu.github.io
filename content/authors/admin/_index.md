@@ -1,13 +1,17 @@
 ---
 # Display name
-title: 于洪德
+title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Hongde Yu
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Hongde
-last_name: Yu
+first_name: Shiung Wu
+last_name: Chien
+
+# Status emoji
+status:
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -16,33 +20,92 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Humboldt Postdoc
+role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Technische Universität Dresden
-    url: http://theory.chm.tu-dresden.de/members.shtml?name=hyu&set_language=en&lang=en
+  - name: OpenAI
+    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto: hongde.yu@mailbox.tu-dresden.de'
+    url: 'mailto:your-email@example.com'
     label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://github.com/gcushen
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?hl=en&user=b7x-UnAAAAAJ
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Hongde-Yu-2
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-2576-271X
+    url: https://orcid.org/
 
 interests:
-  - 2D polymers
-  - MOFs
-  - COFs
-  - Magnetism
-  - Photocatalysis
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
+education:
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.8/4.0
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+      
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -120,4 +183,4 @@ awards:
 
 ## About Me
 
-Hongde Yu is a Humboldt Postdoctoral Fellow at Technische Universität Dresden. His research interests include 2D polymers, MOFs, COFs, Magnetism and Photocatalysis. Her research interests include distributed robotics, mobile computing and programmable matter. He teaches multi-reference-related lectures in Theoretical Chemistry course (Master course) in TU Dresden, and co-supervise two PhD students. 
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
