@@ -51,7 +51,8 @@ work:
     date_start: 2022-04-01
     date_end: ''
     summary: |
-      Advisor: Prof. Thomas Heine
+      - Advisor: Prof. Thomas Heine
+      - Computer grant from Paderborn Center for Parallel Computing
 
 education:
   - area: Ph.D. in Physical Chemistry
