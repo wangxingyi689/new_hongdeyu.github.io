@@ -1,14 +1,3 @@
----
-# Display name
-title: 于洪德
-
-# Name pronunciation (optional)
-name_pronunciation: Hongde Yu
-
-# Full name (for SEO)
-first_name: Hongde
-last_name: Yu
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -51,8 +40,7 @@ work:
     date_start: 2022-04-01
     date_end: ''
     summary: |
-      - Advisor: Prof. Thomas Heine
-      - Computer grant from Paderborn Center for Parallel Computing
+      Advisor: Prof. Thomas Heine
 
 education:
   - area: Ph.D. in Physical Chemistry
@@ -67,8 +55,10 @@ education:
     date_end: 2015-07-01
     summary: |
       Advisor: Prof. Dong Wang
-  - area: Visiting student
-    institution: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
+  - position: Visiting student
+    company_name: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
+    company_url: ''
+    company_logo: ''
     date_start: 2014-07-01
     date_end: 2015-09-01
     summary: |
@@ -99,4 +89,4 @@ awards:
 
 ## About Me
 
-Hongde Yu is a Humboldt Postdoctoral Fellow at Technische Universität Dresden. His research interests include 2D polymers, MOFs, COFs, Magnetism and Photocatalysis. Her research interests include distributed robotics, mobile computing and programmable matter. He teaches multi-reference-related lectures in Theoretical Chemistry course (Master course) in TU Dresden, and co-supervise two PhD students. 
+Hongde Yu is a Humboldt Postdoctoral Fellow at Technische Universität Dresden. His research interests include 2D polymers, MOFs, COFs, Magnetism and Photocatalysis.
