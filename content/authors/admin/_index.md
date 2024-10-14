@@ -59,7 +59,7 @@ education:
   - area: Visiting student
     institution: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
     date_start: 2014-07-01
-    date_end: 2015-09-01
+    date_end: 2014-09-01
     summary: |
       Advisor: Prof. Klaus Schulten
 
