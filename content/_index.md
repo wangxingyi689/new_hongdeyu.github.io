@@ -50,6 +50,7 @@ sections:
   #    view: article-grid
   #    columns: 2
   - block: collection
+    id: papers
     content:
       title: Recent Publications
       text: ""
@@ -60,6 +61,7 @@ sections:
     design:
       view: citation
   - block: markdown
+    id: talks
     content:
       title: 'Contribution  Talks'
       subtitle: ''
