@@ -50,6 +50,7 @@ sections:
   #    view: article-grid
   #    columns: 2
   - block: collection
+    id: papers
     content:
       title: Recent Publications
       text: ""
@@ -60,6 +61,7 @@ sections:
     design:
       view: citation
   - block: markdown
+    id: talks
     content:
       title: 'Contribution  Talks'
       subtitle: ''
@@ -72,16 +74,16 @@ sections:
         - MATERIALS 4.0 Summer School, Dresden, Germany, 2020. 
     design:
       columns: '1'
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - event
+  #  design:
+  #    view: article-grid
+  #    columns: 1
   #- block: collection
   #  id: news
   #  content:
