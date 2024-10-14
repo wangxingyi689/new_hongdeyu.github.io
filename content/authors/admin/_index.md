@@ -44,7 +44,7 @@ interests:
   - Photocatalysis
 
 education:
-  - area: Ph.D. in Physical Chemistry
+  - area: PhD Physical Chemistry
     institution: Tsinghua University, P. R. China
     date_start: 2021-04-01
     date_end: 2015-08-01
