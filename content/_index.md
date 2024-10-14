@@ -60,16 +60,6 @@ sections:
     design:
       view: citation
   - block: collection
-    content:
-      title: '📚 Talks'
-      subtitle: ''
-    - area: PhD Physical Chemistry
-      institution: Tsinghua University, P. R. China
-      date_start: 2021-04-01
-      date_end: 2015-08-01
-      summary: |
-        Advisor: Prof. Zhigang Shuai
-  - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks
