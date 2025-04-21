@@ -54,8 +54,6 @@ education:
     institution: Tsinghua University, P. R. China
     date_start: 2011-08-01
     date_end: 2015-07-01
-    summary: |
-      Advisor: Prof. Dong Wang
   - area: Visiting student
     institution: University of Illinois at Urbana-Champaign (UIUC), U.S.A.
     date_start: 2014-07-01
