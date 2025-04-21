@@ -27,11 +27,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Preload upload-artifact v3 manually
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@3f8a0a3d3b0f84f0885b8c8336e621fac8d31a93
       with:
         name: preload-v3
         path: README.md
       continue-on-error: true
+
 
     - name: Checkout
       uses: actions/checkout@v4
