@@ -26,15 +26,6 @@ jobs:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
-
-    - name: Preload upload-artifact v3 manually
-      uses: actions/upload-artifact@v3.1.3
-      with:
-        name: preload-v3
-        path: README.md
-      continue-on-error: true
-
-
     - name: Checkout
       uses: actions/checkout@v4
       with:
