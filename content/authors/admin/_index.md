@@ -46,10 +46,10 @@ interests:
 education:
   - area: PhD Physical Chemistry
     institution: Tsinghua University, P. R. China
-    date_start: 2021-04-01
-    date_end: 2015-08-01
+    date_start: 2015-08-01
+    date_end: 2021-04-01
     summary: |
-      Advisor: Prof. Zhigang Shuai
+      Advisor: Prof. Dong Wang
   - area: BSc Chemistry (major), Computer Science (minor)
     institution: Tsinghua University, P. R. China
     date_start: 2011-08-01
