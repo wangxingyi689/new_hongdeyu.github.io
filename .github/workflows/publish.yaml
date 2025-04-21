@@ -58,6 +58,13 @@ jobs:
       with:
         path: ./public
 
+    - name: Dummy upload artifact (force v4 preload)
+      uses: actions/upload-artifact@v4
+      with:
+        name: dummy
+        path: README.md
+      continue-on-error: true 
+
   # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'
@@ -70,11 +77,3 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
-
-    - name: Dummy upload artifact (force v4 preload)
-      uses: actions/upload-artifact@v4
-      with:
-        name: dummy
-        path: README.md
-      continue-on-error: true 
-
