@@ -26,6 +26,13 @@ jobs:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
+    - name: Preload upload-artifact v3 manually
+      uses: actions/upload-artifact@v3
+      with:
+        name: preload-v3
+        path: README.md
+      continue-on-error: true
+
     - name: Checkout
       uses: actions/checkout@v4
       with:
@@ -57,13 +64,6 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
         path: ./public
-
-    - name: Dummy upload artifact (force v4 preload)
-      uses: actions/upload-artifact@v4
-      with:
-        name: dummy
-        path: README.md
-      continue-on-error: true 
 
   # Deploy website to GitHub Pages hosting
   deploy:
