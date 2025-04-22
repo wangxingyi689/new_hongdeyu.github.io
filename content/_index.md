@@ -53,6 +53,8 @@ sections:
     id: papers
     content:
       count: 6
+      sort_by: weight
+      sort_ascending: true
       title: Recent Publications
       text: ""
       filters:
