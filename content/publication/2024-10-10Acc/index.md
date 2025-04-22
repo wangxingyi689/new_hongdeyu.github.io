@@ -3,7 +3,7 @@ title: "Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices"
 authors:
 - Hongde Yu
 - Yu Jing
-- Thomas Heine*
+- Thomas Heine
 date: "2024-12-10T00:00:00Z"
 doi: "10.1021/acs.accounts.4c00557"
 

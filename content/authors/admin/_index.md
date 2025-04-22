@@ -62,20 +62,49 @@ education:
       Advisor: Prof. Klaus Schulten
 
 work:
+  - position: Postdoctoral Researcher and Subgroup Leader
+    company_name: Technische Universität Dresden, Germany
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-04-01
+    date_end: ''
+    summary: |
+      Advisor: Prof. Thomas Heine
+      - Leading a subgroup on magnetic carbon
+      - Co-supervising two PhD students
+      - Continuing independent research in theoretical chemistry and materials modeling
+
   - position: Humboldt Postdoctoral Fellow
     company_name: Technische Universität Dresden, Germany
     company_url: ''
     company_logo: ''
     date_start: 2022-04-01
-    date_end: ''
+    date_end: 2024-03-31
     summary: |
       Advisor: Prof. Thomas Heine
+      - Independent research on metal-free magnetism
+      - Funded by the Alexander von Humboldt Foundation
+
+  - position: Research Assistant
+    company_name: Department of Chemistry, Tsinghua University, China
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-05
+    date_end: 2021-11
+    summary: |
+      Advisor: Prof. Zhigang Shuai
+      - Research on theoretical chemistry in excited states of organic semiconductors
+      - Focused on electronic structure modeling and photophysical property analysis
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Humboldt Research Fellowship
+    date: '2022-04-01'
+    summary: |
+    Magnetism and Ferroelectricity in 2D Covalent Organic Frameworks
   - title: Tang Aoqing Chemistry Scholarship
     date: '2020-10-15'
     summary: |
