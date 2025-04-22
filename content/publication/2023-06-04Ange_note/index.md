@@ -4,11 +4,21 @@ authors:
 - Yamei Liu
 - Heng Zhang
 - Dr. Hongde Yu
-- et al
+- Dr. Zhongquan Liao
+- Dr. Silvia Paasch
+- Dr. Shunqi Xu
+- Dr. Ruyan Zhao
+- Prof. Eike Brunner
+- Prof. Mischa Bonn
+- Dr. Hai I. Wang
+- Prof. Thomas Heine
+- Dr. Mingchao Wang
+- Prof. Yiyong Mai
+- Prof. Xinliang Feng
 # date: "2018-06-04T00:00:00Z"
 # exclude_from_home: true
 doi: "10.1002/anie.202305978"
-weight: 10
+weight: 8
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2023-06-04T00:00:00Z"
