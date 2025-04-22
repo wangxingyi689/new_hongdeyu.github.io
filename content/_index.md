@@ -52,6 +52,7 @@ sections:
   - block: collection
     id: papers
     content:
+      count: 6
       title: Recent Publications
       text: ""
       filters:
