@@ -89,8 +89,8 @@ work:
     company_name: Department of Chemistry, Tsinghua University, China
     company_url: ''
     company_logo: ''
-    date_start: 2021-05
-    date_end: 2021-11
+    date_start: 2021-05-01
+    date_end: 2021-11-01
     summary: |
       Advisor: Prof. Zhigang Shuai
       - Research on theoretical chemistry in excited states of organic semiconductors
