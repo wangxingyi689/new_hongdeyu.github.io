@@ -104,8 +104,8 @@ awards:
   - title: Humboldt Research Fellowship
     date: '2022-04-01'
     summary: |
-    Magnetism and Ferroelectricity in 2D Covalent Organic Frameworks
-    
+    Title: Magnetism and Ferroelectricity in 2D Covalent Organic Frameworks
+
   - title: Tang Aoqing Chemistry Scholarship
     date: '2020-10-15'
     summary: |
