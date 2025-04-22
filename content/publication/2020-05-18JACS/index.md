@@ -22,7 +22,7 @@ abstract: Organic and molecule-based magnets are not easily attainable, as intro
 
 #tags:
 #- Source Themes
-#featured: false
+featured: True
 
 # links:
 # - name: ""

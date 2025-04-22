@@ -58,9 +58,10 @@ sections:
       filters:
         folders:
           - publication
-        exclude:
-          exclude_from_home: true
+        #exclude:
+        #  exclude_from_home: true
         #exclude_featured: False
+        featured: True
     design:
       view: citation
   - block: markdown
