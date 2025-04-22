@@ -3,11 +3,11 @@ title: "Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices"
 authors:
 - Yamei Liu
 - Heng Zhang
-- Dr. Hongde YuHongde Yu
+- Dr. Hongde Yu
 - et al
 date: "2023-06-04T00:00:00Z"
+#exclude_from_home: true
 doi: "10.1002/anie.202305978"
-# exclude_from_home: true
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-06-04T00:00:00Z"
@@ -27,7 +27,7 @@ abstract: Linear conjugated polymers have attracted significant attention in org
 
 #tags:
 #- Source Themes
-featured: True
+featured: False
 
 # links:
 # - name: ""
