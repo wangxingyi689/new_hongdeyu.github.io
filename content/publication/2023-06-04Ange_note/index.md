@@ -3,18 +3,18 @@ title: "Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices"
 authors:
 - Yamei Liu
 - Heng Zhang
-- Dr. Hongde Yu
-- Dr. Zhongquan Liao
-- Dr. Silvia Paasch
-- Dr. Shunqi Xu
+- Hongde Yu
+- Zhongquan Liao
+- Silvia Paasch
+- Shunqi Xu
 - Dr. Ruyan Zhao
-- Prof. Eike Brunner
-- Prof. Mischa Bonn
-- Dr. Hai I. Wang
-- Prof. Thomas Heine
-- Dr. Mingchao Wang
-- Prof. Yiyong Mai
-- Prof. Xinliang Feng
+- Eike Brunner
+- Mischa Bonn
+- Hai I. Wang
+- Thomas Heine
+- Mingchao Wang
+- Yiyong Mai
+- Xinliang Feng
 date: "2018-06-04T00:00:00Z"
 # exclude_from_home: true
 doi: "10.1002/anie.202305978"
