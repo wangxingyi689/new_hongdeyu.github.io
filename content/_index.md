@@ -58,6 +58,8 @@ sections:
       filters:
         folders:
           - publication
+        exclude:
+          exclude_from_home: true
         exclude_featured: false
     design:
       view: citation
