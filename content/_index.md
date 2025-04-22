@@ -60,8 +60,8 @@ sections:
           - publication
         #exclude:
         #  exclude_from_home: true
-        #exclude_featured: False
-        featured: True
+        exclude_featured: True
+        #featured: True
     design:
       view: citation
   - block: markdown
