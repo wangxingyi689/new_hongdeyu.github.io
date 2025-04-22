@@ -2,7 +2,7 @@
 title: "Suppressing the Excitonic Effect in Covalent Organic Frameworks for Metal-Free Hydrogen Generation"
 authors:
 - Hongde Yu
-- Dong Wang*
+- Dong Wang
 date: "2022-06-22T00:00:00Z"
 doi: "10.1021/jacsau.2c00169"
 

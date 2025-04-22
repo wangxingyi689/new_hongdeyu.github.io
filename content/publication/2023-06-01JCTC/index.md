@@ -3,7 +3,7 @@ title: "Predicting Magnetic Coupling and Spin-Polarization Energy in Triangulene
 authors:
 - Hongde Yu
 - Jianwei Sun
-- Thomas Heine*
+- Thomas Heine
 date: "2023-06-01T00:00:00Z"
 doi: "10.1021/acs.jctc.3c00175"
 
