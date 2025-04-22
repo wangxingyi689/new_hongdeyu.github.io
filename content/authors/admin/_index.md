@@ -89,8 +89,8 @@ work:
     company_name: Department of Chemistry, Tsinghua University, China
     company_url: ''
     company_logo: ''
-    date_start: 2021-05-01
-    date_end: 2021-11-01
+    date_start: 2021-05
+    date_end: 2021-11
     summary: |
       Advisor: Prof. Zhigang Shuai
       - Research on theoretical chemistry in excited states of organic semiconductors
@@ -104,7 +104,6 @@ awards:
   - title: Humboldt Research Fellowship
     date: '2022-04-01'
     summary: |
-    Magnetism and Ferroelectricity in 2D Covalent Organic Frameworks
   - title: Tang Aoqing Chemistry Scholarship
     date: '2020-10-15'
     summary: |
