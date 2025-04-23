@@ -3,8 +3,8 @@
 title: Publications
 # headless: true
 content:
-  sort_by: order
-  sort_ascending: false
+  sort_by: weight
+  sort_ascending: true
 cms_exclude: true
 
 # View.
