@@ -1,5 +1,4 @@
----
-    
+---   
 title: Publications
 # headless: true
 content:

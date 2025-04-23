@@ -59,7 +59,9 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - publication/listA
+          - publication/listB
+          #- publication
         #exclude:
         #  exclude_from_home: true
         #exclude_featured: True
