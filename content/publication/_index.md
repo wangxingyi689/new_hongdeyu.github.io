@@ -30,7 +30,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - listB
         #exclude_featured: True
     #view: citation
     design:
