@@ -5,7 +5,7 @@ authors:
 - Dong Wang
 author_notes:
 - Equal contribution
-- *
+- Equal contribution
 weight: 6
 date: "2020-05-18T00:00:00Z"
 doi: "10.1021/jacs.0c02254"
