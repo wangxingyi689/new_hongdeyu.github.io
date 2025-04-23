@@ -18,7 +18,7 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    view: citation
+    #view: citation
   - block: collection
     content:
       count: 6
@@ -30,6 +30,6 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    view: citation
+    #view: citation
 
 ---
