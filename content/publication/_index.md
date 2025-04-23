@@ -39,4 +39,5 @@ sections:
       show_all: false
     show_all: false
 view: citation
+show_all: false
 ---
