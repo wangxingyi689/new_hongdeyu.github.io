@@ -2,7 +2,7 @@
 title: Publications
 # headless: true
 content:
-  sort_by: params.weight
+  sort_by: weight
   sort_ascending: true
 cms_exclude: true
 
