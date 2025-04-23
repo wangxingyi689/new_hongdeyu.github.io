@@ -24,8 +24,8 @@ sections:
   - block: collection
     content:
       #count: 1
-      #sort_by: weight
-      #sort_ascending: False
+      sort_by: weight
+      sort_ascending: False
       title: ""
       text: ""
       filters:
