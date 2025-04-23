@@ -18,6 +18,8 @@ sections:
         folders:
           - publication
         #exclude_featured: True
+    design:
+      view: citation
     #view: citation
   - block: collection
     content:
@@ -31,5 +33,7 @@ sections:
           - publication
         #exclude_featured: True
     #view: citation
+    design:
+      view: citation
 view: citation
 ---
