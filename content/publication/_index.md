@@ -24,14 +24,14 @@ sections:
     #view: citation
   - block: collection
     content:
-      count: 1
+      #count: 1
       sort_by: weight
       sort_ascending: False
       title: ""
       text: ""
       filters:
         folders:
-          - publication
+          - publication/listB
         #exclude_featured: True
     #view: citation
     design:
