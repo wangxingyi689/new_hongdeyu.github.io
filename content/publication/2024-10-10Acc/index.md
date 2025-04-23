@@ -22,7 +22,7 @@ publication_short: ""
 
 
 # Summary. An optional shortened abstract.
-Hongde Yu, Yu Jing, Thomas Heine (2024). Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices. *Accounts of Chemical Research, 58*(1), 61-72.
+summary: Hongde Yu, Yu Jing, Thomas Heine (2024). Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices. *Accounts of Chemical Research, 58*(1), 61-72.
 
 #tags:
 #- Source Themes
