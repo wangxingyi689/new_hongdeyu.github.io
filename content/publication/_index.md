@@ -1,34 +1,15 @@
 ---
-title: ""
-type: landing
+title: Publications
+cms_exclude: true
+content:
+  sort_by: weight
+  sort_ascending: true
 
-design:
-  # Default section spacing
-  spacing: "6rem"
+# View.
+view: citation
 
-
-
-
-sections:
-  - block: collection
-    id: papers
-    content:
-      count: 20
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - listA
-    design:
-      view: citation
-  - block: collection
-    id: papers
-    content:
-      count: 20
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - listB
-    design:
-      view: citation
+# Optional header image (relative to `static/media/` folder).
+banner:
+  caption: ''
+  image: ''
+---
