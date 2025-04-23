@@ -20,6 +20,7 @@ sections:
         #exclude_featured: True
     design:
       view: citation
+      show_view_all: false
     #view: citation
   - block: collection
     content:
