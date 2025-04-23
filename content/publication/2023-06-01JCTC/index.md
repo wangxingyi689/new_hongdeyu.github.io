@@ -1,7 +1,7 @@
 ---
 title: "Predicting Magnetic Coupling and Spin-Polarization Energy in Triangulene Analogues"
 authors:
-- Hongde Yu
+- admin
 - Jianwei Sun
 - Thomas Heine
 weight: 4
