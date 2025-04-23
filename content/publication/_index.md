@@ -20,8 +20,6 @@ sections:
         #exclude_featured: True
     design:
       view: citation
-      show_all: false
-    show_view_all: false
     #view: citation
   - block: collection
     content:
@@ -37,10 +35,17 @@ sections:
     #view: citation
     design:
       view: citation
-      hide_view_all: true
-    show_all: false
-    hide_view_all: true
+      css_style: |
+        .view-all,
+        .btn-view-all,
+        a[href="/publication/"] {
+          display: none !important;
+        }
 view: citation
-show_all: false
-hide_view_all: true
+css_style: |
+    .view-all,
+    .btn-view-all,
+    a[href="/publication/"] {
+      display: none !important;
+    }
 ---
