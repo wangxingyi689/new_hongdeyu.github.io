@@ -31,7 +31,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication/listB
+          - listB
         #exclude_featured: True
     #view: citation
     design:
