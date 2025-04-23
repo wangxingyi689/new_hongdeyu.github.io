@@ -33,11 +33,4 @@ sections:
         #exclude_featured: True
     design:
       view: citation
-      css_style: |
-        .view-all,
-        .btn-view-all,
-        a[href="/publication/"] {
-          display: none !important;
-        }
-view: citation
 ---
