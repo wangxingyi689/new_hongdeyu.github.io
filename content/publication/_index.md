@@ -1,8 +1,9 @@
 ---
 title: Publications
 # headless: true
-sort_by: weight
-sort_ascending: true
+content:
+  sort_by: weight
+  sort_ascending: true
 cms_exclude: true
 
 # View.
