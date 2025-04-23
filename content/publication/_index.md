@@ -1,13 +1,14 @@
 ---
-- block: collection
-  content:
-    count: 6
-    sort_by: weight
-    sort_ascending: true
-    title: ""
-    text: ""
-  design:
-    view: citation
+sections:
+  - block: collection
+    content:
+      count: 6
+      sort_by: weight
+      sort_ascending: true
+      title: ""
+      text: ""
+    design:
+      view: citation
     
 title: Publications
 # headless: true
