@@ -1,5 +1,5 @@
 ---
-title: "Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices"
+title: "A Thiophene Backbone Enables Two-Dimensional Poly(arylene vinylene)s with High Charge Carrier Mobility"
 authors:
 - Yamei Liu
 - Heng Zhang
@@ -15,7 +15,7 @@ authors:
 - Mingchao Wang
 - Yiyong Mai
 - Xinliang Feng
-date: "2018-06-04T00:00:00Z"
+date: "2023-06-04T00:00:00Z"
 # exclude_from_home: true
 doi: "10.1002/anie.202305978"
 weight: 8
