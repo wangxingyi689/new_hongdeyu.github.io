@@ -18,9 +18,6 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    design:
-      view: citation
-    #view: citation
   - block: collection
     content:
       count: 1
@@ -32,9 +29,7 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    #view: citation
     design:
-      view: citation
       css_style: |
         .view-all,
         .btn-view-all,
