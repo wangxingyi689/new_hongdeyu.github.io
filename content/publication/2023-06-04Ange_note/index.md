@@ -3,7 +3,7 @@ title: "A Thiophene Backbone Enables Two-Dimensional Poly(arylene vinylene)s wit
 authors:
 - Yamei Liu
 - Heng Zhang
-- Hongde Yu
+- admin
 - Zhongquan Liao
 - Silvia Paasch
 - Shunqi Xu
