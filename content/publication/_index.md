@@ -31,10 +31,12 @@ sections:
       text: ""
       filters:
         folders:
-          - listB
+          - publication
         #exclude_featured: True
     #view: citation
     design:
       view: citation
+      show_all: false
+    show_all: false
 view: citation
 ---
