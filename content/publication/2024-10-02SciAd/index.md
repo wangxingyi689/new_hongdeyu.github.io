@@ -3,6 +3,7 @@ title: "Prediction of Metal-Free Stoner and Mott-Hubbard Magnetism in Triangulen
 authors:
 - Hongde Yu
 - Thomas Heine
+weight: 2
 date: "2024-10-02T00:00:00Z"
 doi: "10.1126/sciadv.adq7954"
 

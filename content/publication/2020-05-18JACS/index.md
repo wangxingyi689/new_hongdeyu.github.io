@@ -3,6 +3,7 @@ title: "Metal-Free Magnetism in Chemically Doped Covalent Organic Frameworks"
 authors:
 - Hongde Yu
 - Dong Wang
+weight: 6
 date: "2020-05-18T00:00:00Z"
 doi: "10.1021/jacs.0c02254"
 
