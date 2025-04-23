@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-cms_exclude: true
+type: landing
 
 design:
   # Default section spacing
@@ -18,8 +18,7 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    design:
-      view: citation
+    view: citation
   - block: collection
     content:
       count: 6
@@ -31,7 +30,6 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    design:
-      view: citation
+    view: citation
 
 ---
