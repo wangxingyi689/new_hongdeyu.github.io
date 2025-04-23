@@ -9,23 +9,9 @@ design:
 sections:
   - block: collection
     content:
-      count: 6
       sort_by: weight
       sort_ascending: true
-      title: ""
-      text: ""
-      filters:
-        folders:
-          - publication
-        #exclude_featured: True
-    design:
-      view: citation
-  - block: collection
-    content:
-      count: 1
-      sort_by: weight
-      sort_ascending: False
-      title: ""
+      title: "Publications"
       text: ""
       filters:
         folders:
