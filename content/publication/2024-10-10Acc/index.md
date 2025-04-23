@@ -1,7 +1,7 @@
 ---
 title: "Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices"
 authors:
-- Hongde Yu
+- admin
 - Yu Jing
 - Thomas Heine
 weight: 1
