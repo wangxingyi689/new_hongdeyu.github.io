@@ -71,8 +71,8 @@ work:
     summary: |
       Advisor: Prof. Thomas Heine
       - Leading a subgroup on magnetic carbon
-      - Co-supervising two PhD students
-      - Continuing independent research in theoretical chemistry and materials modeling
+#      - Co-supervising two PhD students
+#      - Continuing independent research in theoretical chemistry and materials modeling
 
   - position: Humboldt Postdoctoral Fellow
     company_name: Technische Universität Dresden, Germany
@@ -82,8 +82,8 @@ work:
     date_end: 2024-03-31
     summary: |
       Advisor: Prof. Thomas Heine
-      - Independent research on metal-free magnetism
-      - Funded by the Alexander von Humboldt Foundation
+#      - Independent research on metal-free magnetism
+#      - Funded by the Alexander von Humboldt Foundation
 
   - position: Research Assistant
     company_name: Department of Chemistry, Tsinghua University, China
@@ -93,8 +93,8 @@ work:
     date_end: 2021-11-01
     summary: |
       Advisor: Prof. Zhigang Shuai
-      - Research on theoretical chemistry in excited states of organic semiconductors
-      - Focused on electronic structure modeling and photophysical property analysis
+#      - Research on theoretical chemistry in excited states of organic semiconductors
+#      - Focused on electronic structure modeling and photophysical property analysis
 
 # Awards.
 #   Add/remove as many awards below as you like.

@@ -1,32 +1,33 @@
 ---
-title: "Physics and Chemistry of Two-Dimensional Triangulene-Based Lattices"
+title: "A Thiophene Backbone Enables Two-Dimensional Poly(arylene vinylene)s with High Charge Carrier Mobility"
 authors:
 - Yamei Liu
 - Heng Zhang
-- Dr. Hongde Yu
-- Dr. Zhongquan Liao
-- Dr. Silvia Paasch
-- Dr. Shunqi Xu
+- Hongde Yu
+- Zhongquan Liao
+- Silvia Paasch
+- Shunqi Xu
 - Dr. Ruyan Zhao
-- Prof. Eike Brunner
-- Prof. Mischa Bonn
-- Dr. Hai I. Wang
-- Prof. Thomas Heine
-- Dr. Mingchao Wang
-- Prof. Yiyong Mai
-- Prof. Xinliang Feng
-date: "2018-06-04T00:00:00Z"
+- Eike Brunner
+- Mischa Bonn
+- Hai I. Wang
+- Thomas Heine
+- Mingchao Wang
+- Yiyong Mai
+- Xinliang Feng
+weight: 7
+order: 7
+date: "2023-06-04T00:00:00Z"
 # exclude_from_home: true
 doi: "10.1002/anie.202305978"
-weight: 8
 
 # Schedule page publish date (NOT publication's date).
-# publishDate: "2023-06-04T00:00:00Z"
+# publishDate: "2018-06-04T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["review"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Angewandte Chemie International Edition, 62*(35), e202305978"
