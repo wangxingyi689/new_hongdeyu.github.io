@@ -18,6 +18,8 @@ sections:
         folders:
           - publication
         #exclude_featured: True
+    design:
+      view: citation
   - block: collection
     content:
       count: 1
@@ -30,6 +32,7 @@ sections:
           - publication
         #exclude_featured: True
     design:
+      view: citation
       css_style: |
         .view-all,
         .btn-view-all,
@@ -37,10 +40,4 @@ sections:
           display: none !important;
         }
 view: citation
-css_style: |
-    .view-all,
-    .btn-view-all,
-    a[href="/publication/"] {
-      display: none !important;
-    }
 ---
