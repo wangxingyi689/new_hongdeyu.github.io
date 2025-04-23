@@ -4,12 +4,12 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "0rem"
+  spacing: "6rem"
 
 sections:
   - block: collection
     content:
-      count: 100
+      count: 1000
       sort_by: weight
       sort_ascending: true
       title: "Publications"
