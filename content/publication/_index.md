@@ -31,5 +31,5 @@ sections:
           - publication
         #exclude_featured: True
     #view: citation
-
+view: citation
 ---
