@@ -1,6 +1,6 @@
 ---
 title: Publications
-headless: true
+# headless: true
 content:
   sort_by: weight
   sort_ascending: true
