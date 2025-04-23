@@ -18,6 +18,6 @@ sections:
         folders:
           - publication
         #exclude_featured: True
-    design:
-      view: citation
+    #design:
+    #  view: citation
 ---
