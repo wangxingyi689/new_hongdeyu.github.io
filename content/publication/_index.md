@@ -4,7 +4,7 @@ title: Publications
 # headless: true
 content:
   sort_by: order
-  sort_ascending: true
+  sort_ascending: false
 cms_exclude: true
 
 # View.
