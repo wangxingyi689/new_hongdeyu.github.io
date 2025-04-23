@@ -37,10 +37,10 @@ sections:
     #view: citation
     design:
       view: citation
-      show_all: false
+      hide_view_all: true
     show_all: false
-    show_view_all: false
+    hide_view_all: true
 view: citation
 show_all: false
-show_view_all: false
+hide_view_all: true
 ---
