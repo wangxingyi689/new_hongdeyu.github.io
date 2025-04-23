@@ -8,7 +8,8 @@ content:
 cms_exclude: true
 
 # View.
-view: citation
+design:
+  view: citation
 
 # Optional header image (relative to `static/media/` folder).
 banner:
