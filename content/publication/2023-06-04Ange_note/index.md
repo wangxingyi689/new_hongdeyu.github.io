@@ -15,21 +15,6 @@ authors:
 - Mingchao Wang
 - Yiyong Mai
 - Xinliang Feng
-author_notes:
-- Equal contribution
-- Equal contribution
-- Equal contribution
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
-- ""
 weight: 7
 order: 7
 date: "2023-06-04T00:00:00Z"
