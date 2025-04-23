@@ -21,6 +21,7 @@ sections:
     design:
       view: citation
       show_all: false
+    show_view_all: false
     #view: citation
   - block: collection
     content:
@@ -38,6 +39,7 @@ sections:
       view: citation
       show_all: false
     show_all: false
+    show_view_all: false
 view: citation
 show_all: false
 show_view_all: false
