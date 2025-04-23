@@ -20,7 +20,7 @@ sections:
         #exclude_featured: True
     design:
       view: citation
-      show_view_all: false
+      show_all: false
     #view: citation
   - block: collection
     content:
@@ -31,7 +31,7 @@ sections:
       text: ""
       filters:
         folders:
-          - listB
+          - publication
         #exclude_featured: True
     #view: citation
     design:
