@@ -1,9 +1,10 @@
 ---
 title: Publications
-cms_exclude: true
+headless: true
 content:
   sort_by: weight
   sort_ascending: true
+cms_exclude: true
 
 # View.
 view: citation
