@@ -32,5 +32,6 @@ sections:
           - publication
         #exclude_featured: True
     design:
+      columns: '2'
       view: card
 ---
