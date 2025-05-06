@@ -46,7 +46,7 @@ sections:
           - publication
         #exclude_featured: True
     design:
-      view: cardtest
+      view: community/cardtest
       columns: 1
   - block: collection
     content:
