@@ -24,8 +24,8 @@ abstract: Metal-free magnetism remains an enigmatic field, offering prospects fo
 # Summary. An optional shortened abstract.
 summary: We present an effective approach to control the magnetic couplings in triangulene dimers. We investigated 24 triangulene dimers and achieved unprecedented strong J values up to -144 meV. Many of our predictions have been experimentally verified. We show the first example of ferromagnetic triangulene dimers that is beyond Lieb's theorem's predictive power.
 
-#tags:
-#- Source Themes
+tags:
+- tag1
 #featured: false
 
 # links:
