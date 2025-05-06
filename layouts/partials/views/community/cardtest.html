@@ -11,17 +11,19 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
+<!-- 修改：设置整体模块最大宽度为 400px，确保文字部分较宽 -->
 <div class="group cursor-pointer" style="max-width: 400px; margin: 0 auto;">
 
   {{ with $resource }}
   {{ $image := "" }}
   {{if $fill_image}}
-    {{ $image = .Fill (printf "960x540 %s" $anchor) }}
+    {{ $image = .Fill (printf "300x169 %s" $anchor) }} <!-- 修改：图片尺寸从 960x540 减小到 300x169 -->
   {{else}}
-    {{ $image = .Fit (printf "960x540 %s" $anchor) }}
+    {{ $image = .Fit (printf "300x169 %s" $anchor) }} <!-- 修改：同上 -->
   {{end}}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+  <!-- 修改：限制图片容器宽度为 300px，居中 -->
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800" style="max-width: 300px; margin: 0 auto;">
 
     <a
       class="relative block aspect-video"
@@ -36,7 +38,8 @@
            width="{{ $image.Width }}"></a>
   </div>
   {{end}}
-  <div class="">
+  <!-- 修改：文字部分保持 400px 宽度（通过父容器控制） -->
+  <div class="" style="max-width: 400px;">
     <div class="">
       <div class="flex gap-3">
         {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
@@ -44,7 +47,6 @@
           class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">{{ .Page.LinkTitle }}</span></a>
         {{end}}
       </div>
-      <!--          <div class="relative line-clamp-2" style="display: block; height: 4em">-->
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
@@ -52,7 +54,6 @@
            {{if $target}}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"")  }}{{end}}
           </span></a>
       </h2>
-      <!--          </div>-->
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}>
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
@@ -60,7 +61,6 @@
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
-          <!--          <a href="">-->
           {{ if $item.Params.authors }}
           <div class="flex items-center gap-3">
             {{ range $index, $value := first 1 ($item.GetTerms "authors") }}
@@ -86,15 +86,12 @@
               </span>
           </div>
           {{end}}
-          <!--          </a>-->
           <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
-          {{end}}
           <time class="truncate text-sm" datetime="{{ time.Format "2006-01-02" $item.Date }}">
           {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
           </time>
         </div>
       </div>
-
     </div>
   </div>
 </div>
