@@ -46,7 +46,7 @@ sections:
           - publication
         #exclude_featured: True
     design:
-      view: article-grid
+      view: cardtest
       columns: 1
   - block: collection
     content:
