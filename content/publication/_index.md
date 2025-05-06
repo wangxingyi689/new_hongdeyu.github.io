@@ -33,7 +33,7 @@ sections:
         #exclude_featured: True
     design:
       columns: 2
-      view: card2
+      view: cardtest
   - block: collection
     content:
       count: 1000
