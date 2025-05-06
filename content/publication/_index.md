@@ -25,14 +25,14 @@ sections:
       count: 1000
       sort_by: weight
       sort_ascending: true
-      title: Publications1
+      title: "Publications1"
       text: ""
       filters:
         folders:
           - publication
         #exclude_featured: True
     design:
-      columns: 2
+      columns: 1
       view: card
   - block: collection
     content:
@@ -53,7 +53,7 @@ sections:
       count: 1000
       sort_by: weight
       sort_ascending: true
-      title: "Publications2"
+      title: "Publications3"
       text: ""
       filters:
         folders:
