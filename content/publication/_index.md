@@ -25,7 +25,7 @@ sections:
       count: 1000
       sort_by: weight
       sort_ascending: true
-      title: "Publications (example for figure1)"
+      title: "Publications1"
       text: ""
       filters:
         folders:
@@ -39,7 +39,7 @@ sections:
       count: 1000
       sort_by: weight
       sort_ascending: true
-      title: "Publications (example for figure2)"
+      title: "Publications2"
       text: ""
       filters:
         folders:
@@ -48,5 +48,19 @@ sections:
     design:
       view: article-grid
       columns: 1
+  - block: collection
+    content:
+      count: 1000
+      sort_by: weight
+      sort_ascending: true
+      title: "Publications2"
+      text: ""
+      filters:
+        folders:
+          - publication
+        #exclude_featured: True
+    design:
+      view: article-grid
+      columns: 2
 
 ---
