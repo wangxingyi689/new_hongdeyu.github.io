@@ -11,14 +11,14 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<div class="group cursor-pointer">
+<div class="group cursor-pointer" style="max-width: 400px; margin: 0 auto;">
 
   {{ with $resource }}
   {{ $image := "" }}
   {{if $fill_image}}
-    {{ $image = .Fill (printf "480x270 %s" $anchor) }}
+    {{ $image = .Fill (printf "960x540 %s" $anchor) }}
   {{else}}
-    {{ $image = .Fit (printf "480x270 %s" $anchor) }}
+    {{ $image = .Fit (printf "960x540 %s" $anchor) }}
   {{end}}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
