@@ -31,6 +31,7 @@ sections:
         folders:
           - publication
         #exclude_featured: True
+      page_type: post
     design:
       columns: 1
       view: card
