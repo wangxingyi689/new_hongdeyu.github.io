@@ -32,7 +32,7 @@ sections:
           - publication
         #exclude_featured: True
     design:
-      columns: '2'
+      columns: 2
       view: card
   - block: collection
     content:
@@ -47,5 +47,6 @@ sections:
         #exclude_featured: True
     design:
       view: article-grid
+      columns: 1
 
 ---
