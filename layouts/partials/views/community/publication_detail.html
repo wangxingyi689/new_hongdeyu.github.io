@@ -63,6 +63,19 @@
         {{- $item.Params.publication | markdownify -}},
       {{ end }}
       {{- $item.Date.Format "2006" -}}.
+
+      <!--          </div>-->
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+      <span class="article-metadata li-cite-author">
+        {{ partial "page_metadata_authors" $item }}.
+      </span>
+      {{ if $item.Params.publication_short }}
+        {{- $item.Params.publication_short | markdownify -}},
+      {{ else if $item.Params.publication }}
+        {{- $item.Params.publication | markdownify -}},
+      {{ end }}
+      {{- $item.Date.Format "2006" -}}.
+      </div>
       
       <!--          </div>-->
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
@@ -74,17 +87,6 @@
 
     </div>
   </div>
-
-  
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}.
-  </span>
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}},
-  {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}},
-  {{ end }}
-  {{- $item.Date.Format "2006" -}}.
 
   
   {{ if $has_attachments }}
