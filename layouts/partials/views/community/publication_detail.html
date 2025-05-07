@@ -11,7 +11,9 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
+
 <div class="group cursor-pointer" style="max-width: 600px; margin: 0 auto; margin-bottom: 2rem;">
+
   {{ with $resource }}
   {{ $image := "" }}
   {{if $fill_image}}
@@ -20,10 +22,12 @@
     {{ $image = .Fit (printf "480x270 %s" $anchor) }}
   {{end}}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-  <div class="overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 400px; margin: 0 auto; aspect-ratio: 16 / 9; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 0.5rem;">
+<div class="overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 400px; margin: 0 auto; aspect-ratio: 16 / 9; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 0.5rem;">
+
     <a
       class="relative block aspect-video"
       href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+
       <img alt="{{ $item.Title | plainify }}"
            class="{{if $fill_image}}object-fill{{else}}object-contain{{end}} transition-all"
            data-nimg="fill"
@@ -41,6 +45,7 @@
           class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">{{ .Page.LinkTitle }}</span></a>
         {{end}}
       </div>
+      <!--          <div class="relative line-clamp-2" style="display: block; height: 4em">-->
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
@@ -48,32 +53,20 @@
            {{if $target}}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"")  }}{{end}}
           </span></a>
       </h2>
+      <!--          </div>-->
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}>
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
       </a></p>
       </div>
-      <!-- Citation Buttons -->
-      <div class="mt-4 flex flex-wrap gap-2">
-        {{ with $item.Params.publication_pdf }}
-        <a class="btn btn-sm btn-outline-primary" href="{{ . | relURL }}" target="_blank" rel="noopener">
-          {{ partial "functions/get_icon" (dict "name" "file-pdf" "attributes" "class=\"w-4 h-4 mr-2\"") }}
-          PDF
-        </a>
-        {{ end }}
-        {{ with $item.Params.cite_bibtex }}
-        <a class="btn btn-sm btn-outline-primary" href="{{ . | relURL }}" target="_blank" rel="noopener">
-          {{ partial "functions/get_icon" (dict "name" "file-code" "attributes" "class=\"w-4 h-4 mr-2\"") }}
-          Cite
-        </a>
-        {{ end }}
-        {{ with $item.Params.doi }}
-        <a class="btn btn-sm btn-outline-primary" href="{{ . }}" target="_blank" rel="noopener">
-          {{ partial "functions/get_icon" (dict "name" "link" "attributes" "class=\"w-4 h-4 mr-2\"") }}
-          DOI
-        </a>
-        {{ end }}
-      </div>
+
+
     </div>
   </div>
 </div>
+
+{{ if $has_attachments }}
+<div class="flex flex-wrap space-x-3">
+  {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+</div>
+{{ end }}
