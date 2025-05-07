@@ -21,7 +21,7 @@
     {{ $image = .Fit (printf "480x270 %s" $anchor) }}
   {{end}}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-  <div class="overflow-hidden rounded-md transition-all hover:scale-105">
+<div class="overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 400px; margin: 0 auto; aspect-ratio: 16 / 9; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 0.5rem;">
 
     <a
       class="relative block aspect-video"
@@ -32,7 +32,7 @@
            data-nimg="fill"
            decoding="async"
            fetchpriority="high" height="{{ $image.Height }}" loading="lazy" src="{{ $image.RelPermalink }}"
-           style="max-width: 400px; height: auto; margin-bottom: 0.5rem; justify-content: center;"
+           style="max-width: 400px; height: auto; display: block; margin: 0 auto;"
            width="{{ $image.Width }}"></a>
   </div>
   {{end}}
