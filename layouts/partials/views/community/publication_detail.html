@@ -63,10 +63,13 @@
 
     </div>
   </div>
+  
+  {{ if $has_attachments }}
+  <div class="flex flex-wrap space-x-3">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+  
 </div>
 
-{{ if $has_attachments }}
-<div class="flex flex-wrap space-x-3">
-  {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-</div>
-{{ end }}
+
