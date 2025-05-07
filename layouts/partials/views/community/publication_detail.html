@@ -54,21 +54,21 @@
           </span></a>
       </h2>
 
-      <span class="article-metadata li-cite-author">
-        {{ partial "page_metadata_authors" $item }}.
-      </span>
-      {{ if $item.Params.publication_short }}
-        {{- $item.Params.publication_short | markdownify -}},
-      {{ else if $item.Params.publication }}
-        {{- $item.Params.publication | markdownify -}},
-      {{ end }}
-      {{- $item.Date.Format "2006" -}}.
+      <h3 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
+        class="article-metadata li-cite-author">
+          {{ partial "page_metadata_authors" $item }}.
+        </span>
+        {{ if $item.Params.publication_short }}
+          {{- $item.Params.publication_short | markdownify -}},
+        {{ else if $item.Params.publication }}
+          {{- $item.Params.publication | markdownify -}},
+        {{ end }}
+        {{- $item.Date.Format "2006" -}}.
+      </h3>
 
       <!--          </div>-->
-      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-        {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
-        </a></p>
+      <div class="grow">
         <div class="mt-2 text-sm text-gray-500 dark:text-gray-400">
         <span class="article-metadata li-cite-author">
           {{ partial "page_metadata_authors" $item }}.
