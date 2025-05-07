@@ -18,7 +18,7 @@ publication_types: ["review"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Accounts of Chemical Research, 58*(1), 61-72"
-publication_short: "*Accounts of Chemical Research, 58*(1), 61-72"
+publication_short: ""
 
 
 # Summary. An optional shortened abstract.
