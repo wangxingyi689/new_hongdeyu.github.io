@@ -1,6 +1,6 @@
 {{ $item := .item }}
 {{ $fill_image := .config.fill_image | default true }}
-
+{{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
