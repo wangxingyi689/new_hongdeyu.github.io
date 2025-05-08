@@ -47,7 +47,7 @@ sections:
           - team_project
     design:
       columns: '1'
-    view: card
+    view: community/talk
   #- block: collection
   #  id: papers
   #  content:
