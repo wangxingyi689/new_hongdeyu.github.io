@@ -39,13 +39,15 @@ sections:
     design:
       columns: '1'
   - block: custom
-    id: team
     content:
-      title: '👥 My Team'
+      title: 'Magnetic Carbon Subgroup (MagCarb)'
       subtitle: 'Meet our team and explore our projects'
-      text: '{{ partial "team.html" .Site.Data.team | safeHTML }}'
+      filters:
+        folders:
+          - team_project
     design:
       columns: '1'
+    view: card
   #- block: collection
   #  id: papers
   #  content:
