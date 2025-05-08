@@ -1,0 +1,8 @@
+team_image: /images/team.jpg
+projects:
+  - title: Project 1
+    image: /images/project1.jpg
+    description: A brief description of Project 1, focusing on its key objectives and impact.
+  - title: Project 2
+    image: /images/project2.jpg
+    description: A concise overview of Project 2, highlighting its innovative approach.
