@@ -1,5 +1,5 @@
 ---
-title: International Conference on Metal-Organic Frameworkds and Open Framework Compounds (MOF), Singapore
+title: International Conference on Metal-Organic Frameworkds and Open Framework Compounds (MOF2024), Singapore
 #summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
 date: 2024-07-15
 
@@ -12,7 +12,7 @@ image:
 #  - admin
 #  - Ted
 
-tags:
-  - MOF2024
+#tags:
+#  - MOF2024
 
 ---
