@@ -54,6 +54,6 @@
   </div>
   <time
     class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
-    datetime="{{ time.Format "2006-01-02" $item.Date }}">{{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }}
+    datetime="{{ time.Format "2006-01" $item.Date }}">{{ time.Format "January 2006" $item.Date }}
   </time>
 </article>
