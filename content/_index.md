@@ -64,9 +64,9 @@ sections:
     design:
       view: citation
 - block: collection
-    id: news
+    id: talks
     content:
-      title: Talks
+      title: 'Contribution  Talks'
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
@@ -92,20 +92,20 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: markdown
-    id: talks
-    content:
-      title: 'Contribution  Talks'
-      subtitle: ''
-      text: |-
-        - MOF2024, Singapore, 2024.
-        - Flatland, Wroclaw, Poland, 2024.
-        - General Conference of the Condensed Matter Division (CMD31), Braga, Portugal, 2024.
-        - Novel 2D materials explored via scanning probe microscopy & spectroscopy (2DSPM), San Sebastian, Spain, 2024.
-        - The 34th CCS Congress, Guangdong, China, 2024.
-        - MATERIALS 4.0 Summer School, Dresden, Germany, 2020. 
-    design:
-      columns: '1'
+  #- block: markdown
+  #  id: talks
+  #  content:
+  #    title: 'Contribution  Talks'
+  #    subtitle: ''
+  #    text: |-
+  #      - MOF2024, Singapore, 2024.
+  #      - Flatland, Wroclaw, Poland, 2024.
+  #      - General Conference of the Condensed Matter Division (CMD31), Braga, Portugal, 2024.
+  #      - Novel 2D materials explored via scanning probe microscopy & spectroscopy (2DSPM), San Sebastian, Spain, 2024.
+  #      - The 34th CCS Congress, Guangdong, China, 2024.
+  #      - MATERIALS 4.0 Summer School, Dresden, Germany, 2020. 
+  #  design:
+  #    columns: '1'
   #- block: collection
   #  id: talks
   #  content:
