@@ -6,7 +6,8 @@ summary: In contrast to most closed-shell organic systems, radical molecules fea
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  focal_point: ""
+  preview_only: false
 
 #authors:
 #  - admin
