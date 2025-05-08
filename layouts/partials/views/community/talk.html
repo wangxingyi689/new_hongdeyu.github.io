@@ -4,6 +4,14 @@
 {{ $summary =  $summary | page.RenderString }}
 <article class="md:grid md:grid-cols-4 md:items-baseline">
   <div class="md:col-span-3 group relative flex flex-col items-start">
+
+    <div class="flex gap-3">
+      {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
+      <a href="{{.RelPermalink}}"><span
+        class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">{{ .Page.LinkTitle }}</span></a>
+      {{end}}
+    </div>
+    
     <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
       <div
         class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
