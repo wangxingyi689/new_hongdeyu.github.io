@@ -15,7 +15,7 @@
       {{ end }}
     </div>
     <div class="p-4">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">{{ $item.Title }}</div>
+      <div class="uppercase tracking-wide text-md text-primary-900 dark:text-primary-200 font-semibold">{{ $item.Title }}</div>
       <p class="mt-2 text-sm leading-tight font-medium text-black dark:text-white">
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp }}
       </p>
