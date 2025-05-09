@@ -1,26 +1,44 @@
-{{ $ := .root }}
-{{ $page := .page }}
-
 {{ $columns := .config.columns | default 2 }}
 {{ $len := .config.len | default 2 }}
 {{/* NOTE: dynamic `md:grid-cols-{{$columns}}` class requires Tailwind exception */}}
 
 
 
+{{ $ := .root }}
+{{ $page := .page }}
+<!-- Debug Output -->
+<div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 1rem;">
+  <p style="color: blue;">Debug: $page.Params = {{ $page.Params | jsonify | default "null" }}</p>
+  <p style="color: purple;">Debug: $.Params = {{ $.Params | jsonify | default "null" }}</p>
+  <p style="color: green;">Debug: $.Site.Data = {{ $.Site.Data | jsonify | default "null" }}</p>
+  <p style="color: orange;">Debug: $page.Content = {{ $page.Content | default "empty" }}</p>
+  <p style="color: red;">Debug: $page.Params.team_photo = {{ $page.Params.team_photo | default "undefined" }}</p>
+</div>
 
-<div class="container px-0 mx-auto xl:px-5 py-5 lg:py-8 max-w-3xl w-full">
-  
-  <!-- Debug Output -->
-  <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 1rem;">
-    <p style="color: blue;">Debug: $page.Params.team_photo = {{ $page.Params.team_photo | default "undefined" }}</p>
-    <p style="color: purple;">Debug: $.Params.team_photo = {{ $.Params.team_photo | default "undefined" }}</p>
-    <p style="color: green;">Debug: All $page.Params = {{ $page.Params | jsonify }}</p>
-  </div>
+<!-- Section Heading -->
+<div class="section-heading mb-8 text-center">
+  {{ if $page.Title }}
+    <h1>{{ $page.Title | markdownify }}</h1>
+  {{ else }}
+    <p style="color: red;">Debug: No title defined</p>
+  {{ end }}
+  {{ with $page.Params.subtitle }}
+    <p>{{ . | markdownify }}</p>
+  {{ else }}
+    <p style="color: red;">Debug: No subtitle defined</p>
+  {{ end }}
   <!-- Team Photo -->
   {{ with $page.Params.team_photo }}
     <div class="team-photo" style="margin-bottom: 2rem; text-align: center;">
       <img src="{{ . | relURL }}" alt="Team Photo" style="max-width: 100%; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
     </div>
+  {{ else }}
+    <p style="color: red;">Debug: No team photo defined</p>
   {{ end }}
-  
+</div>
+
+
+
+<div class="container px-0 mx-auto xl:px-5 py-5 lg:py-8 max-w-3xl w-full">
+    
   <div class="grid gap-10 md:grid-cols-{{$columns}} lg:gap-10">
