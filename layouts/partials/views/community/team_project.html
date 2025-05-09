@@ -11,15 +11,15 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<div class="group cursor-pointer w-full" style="margin: 0 auto; margin-bottom: 0rem;">
+<div class="group cursor-pointer w-full" style="margin: 0 auto; margin-bottom: 2rem;">
   {{ with $resource }}
   {{ $image := "" }}
   
-  {{ $image = .Resize (printf "700x343 %s" $anchor) }}
+  {{ $image = .Resize (printf "700x270 %s" $anchor) }}
 
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-  <div class="overflow-hidden rounded-md transition-all hover:scale-105 w-full" style="margin: 0 auto; aspect-ratio: 16 / 9; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 0.5rem;">
-    <a class="relative block aspect-video" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+  <div class="overflow-hidden rounded-md transition-all hover:scale-105 w-full" style="margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+    <a class="relative block" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <img alt="{{ $item.Title | plainify }}"
            class="{{if $fill_image}}object-fill{{else}}object-contain{{end}} transition-all"
            data-nimg="fill"
@@ -38,28 +38,20 @@
       <div class="flex gap-3">
         {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
         <a href="{{.RelPermalink}}"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">{{ .Page.LinkTitle }}</span></a>
+          class="inline-block text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">{{ .Page.LinkTitle }}</span></a>
         {{ end }}
       </div>
-      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+      <h2 class="text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
            {{- $item.Title -}}
            {{ if $target }}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"") }}{{ end }}
           </span></a>
       </h2>
-      <div class="mt-2 text-base text-gray-800 dark:text-gray-700"><a
+      <div class="text-base text-gray-800 dark:text-gray-700"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}>
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
-      </a></p></div>
-
-      <!-- smaller gray font
-      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-        {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
-      </a></p></div>
-      -->
-      
+      </a></div>
     </div>
   </div>
   {{ if $has_attachments }}
