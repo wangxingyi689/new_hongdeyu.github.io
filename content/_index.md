@@ -48,6 +48,16 @@ sections:
     design:
       columns: '1'
       view: community/team_project
+  - block: collection
+    content:
+      title: ''
+      subtitle: ''
+      filters:
+        folders:
+          - team_project
+    design:
+      columns: '1'
+      view: community/team_project
   #- block: collection
   #  id: papers
   #  content:
