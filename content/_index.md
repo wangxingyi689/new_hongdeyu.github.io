@@ -41,17 +41,8 @@ sections:
   - block: collection
     content:
       title: 'Magnetic Carbon Subgroup (MagCarb)'
-      subtitle: 'Meet our team and explore our projects'
-      filters:
-        folders:
-          - team_project
-    design:
-      columns: '1'
-      view: community/team_project
-  - block: collection
-    content:
-      title: ''
-      subtitle: ''
+      # subtitle: 'Meet our team and explore our projects'
+      team_photo: '/uploads/group_picture.jpg'
       filters:
         folders:
           - team_project
