@@ -11,7 +11,7 @@
       {{ with $resource }}
         {{ $image := .Resize (printf "655x368 %s" $anchor) }}
         {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-        <img class="w-full h-10 rounded-t-lg hover:scale-105 transition duration-300 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+        <img class="w-full h-20 rounded-t-lg hover:scale-105 transition duration-300 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
       {{ end }}
     </div>
     <div class="p-4">
