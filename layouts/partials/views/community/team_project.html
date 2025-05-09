@@ -15,9 +15,9 @@
   {{ with $resource }}
   {{ $image := "" }}
   {{ if $fill_image }}
-    {{ $image = .Fill (printf "480x270 %s" $anchor) }}
+    {{ $image = .Fill (printf "600x270 %s" $anchor) }}
   {{ else }}
-    {{ $image = .Fit (printf "480x270 %s" $anchor) }}
+    {{ $image = .Fit (printf "600x270 %s" $anchor) }}
   {{ end }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <div class="overflow-hidden rounded-md transition-all hover:scale-105 w-full" style="margin: 0 auto; aspect-ratio: 16 / 9; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 0.5rem;">
@@ -52,17 +52,10 @@
           </span></a>
       </h2>
       <div class="grow">
-        <div class="mt-2 text-base text-gray-800 dark:text-gray-700">
-          <span class="article-metadata li-cite-author">
-            {{ partial "page_metadata_authors" $item }}.
-          </span>
-          {{ if $item.Params.publication_short }}
-            {{- $item.Params.publication_short | markdownify -}},
-          {{ else if $item.Params.publication }}
-            {{- $item.Params.publication | markdownify -}},
-          {{ end }}
-          {{- $item.Date.Format "2006" -}}.
-        </div>
+        <div class="mt-2 text-base text-gray-800 dark:text-gray-700"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+      </a></p></div>
       </div>
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}>
