@@ -22,7 +22,7 @@
 
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <div class="overflow-hidden rounded-md transition-all hover:scale-105 w-full" style="margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-    <a class="relative block" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+    <a class="relative block" {{/*    href="{{ $link }}" {{ $target | safeHTMLAttr }}>    */}}
       <img alt="{{ $item.Title | plainify }}"
            class="{{if $fill_image}}object-fill{{else}}object-contain{{end}} transition-all"
            data-nimg="fill"
@@ -30,7 +30,7 @@
            fetchpriority="high"
            height="{{ $image.Height }}"
            loading="lazy"
-           src="{{ $image.RelPermalink }}"
+           {{/*    src="{{ $image.RelPermalink }}"    */}}
            style="width: 100%; height: auto; display: block; margin: 0 auto;"
            width="{{ $image.Width }}">
     </a>
@@ -45,15 +45,15 @@
           class="inline-block text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">{{ .Page.LinkTitle }}</span></a>
         {{ end }}
       </div>
-      <h2 class="text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
-        href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
+      <h2 class="text-lg font-semibold leading-snug tracking-tight dark:text-white">
+        {{/*  <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>    */}} <span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
            {{- $item.Title -}}
            {{ if $target }}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"") }}{{ end }}
           </span></a>
       </h2>
-      <div class="text-base text-gray-800 dark:text-gray-700"><a
-        href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <div class="text-base text-gray-800 dark:text-gray-700">
+        {{/*    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>     */}} 
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
       </a></div>
     </div>
