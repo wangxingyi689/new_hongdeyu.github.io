@@ -6,10 +6,13 @@
 
 {{ $link := $item.Params.external_link | default $item.RelPermalink }}
 {{ $target := "" }}
+
+<!-- link
 {{ if $item.Params.external_link }}
   {{ $link = $item.Params.external_link }}
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
+-->
 
 <div class="group cursor-pointer w-full" style="margin: 0 auto; margin-bottom: 2rem;">
   {{ with $resource }}
