@@ -1,4 +1,4 @@
-<!-- 
+
 {{ $item := .item }}
 {{ $fill_image := .config.fill_image | default true }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
@@ -7,8 +7,8 @@
 
 {{ $link := $item.Params.external_link | default $item.RelPermalink }}
 {{ $target := "" }}
--->
 
+<!-- 
 {{ $ := .root }}
 {{ $page := .page }}
 {{ $item := .item }}
@@ -26,7 +26,7 @@
   <img src="{{ . | relURL }}" alt="Team Photo" style="max-width: 100%; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
 </div>
 {{ end }}
-
+-->
 
 <!-- link
 {{ if $item.Params.external_link }}
