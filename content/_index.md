@@ -42,7 +42,8 @@ sections:
     content:
       title: 'Magnetic Carbon Subgroup (MagCarb)'
       # subtitle: 'Meet our team and explore our projects'
-      team_photo: uploads/team_photo.jpg
+      text: |
+        ![Team Photo](uploads/team_photo.jpg "Magnetic Carbon Subgroup Team")
       filters:
         folders:
           - team_project
