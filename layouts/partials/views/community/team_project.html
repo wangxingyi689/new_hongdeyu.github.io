@@ -21,7 +21,7 @@
 {{ $target := "" }}
 
 <!-- Team Photo Section -->
-{{ with $Params.team_photo }}
+{{ with $item.Params.team_photo }}
 <div class="team-photo" style="margin-bottom: 2rem; text-align: center;">
   <img src="{{ . | relURL }}" alt="Team Photo" style="max-width: 100%; height: auto; border-radius: 8px; display: block; margin: 0 auto;">
 </div>
