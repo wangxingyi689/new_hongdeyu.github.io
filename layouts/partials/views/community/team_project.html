@@ -18,7 +18,7 @@
   {{ with $resource }}
   {{ $image := "" }}
   
-  {{ $image = .Resize (printf "700x270 %s" $anchor) }}
+  {{ $image = .Resize (printf "730x270 %s" $anchor) }}
 
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <div class="overflow-hidden rounded-md transition-all hover:scale-105 w-full" style="margin: 0 auto; display: flex; align-items: center; justify-content: center;">
