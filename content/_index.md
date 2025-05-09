@@ -42,7 +42,7 @@ sections:
     content:
       title: 'Magnetic Carbon Subgroup (MagCarb)'
       # subtitle: 'Meet our team and explore our projects'
-      team_photo: uploads/team_photo.jpg
+      team_photo: uploads/images/1.JPG
       filters:
         folders:
           - team_project
